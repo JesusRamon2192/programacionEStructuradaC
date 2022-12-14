@@ -11,9 +11,7 @@ int main()
         scanf("%i",&values[n]);
 
         if(n==4){
-            for(int n=0; n<5; n++){
-            resultado=values[0] * values[1] * values[2] * values[3] * values[4];
-            }
+            resultado=values[0] * values[1] * values[2] * values[3]* values[4];
             printf("\nEl resultado es: %i \n", resultado);
         }
     }
